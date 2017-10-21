@@ -1,0 +1,24 @@
+  
+  {"course_grade":5,
+  
+  "course_title":"title",
+  
+  "course_watch":52,
+  
+  "第二章":{"Chapter [id=2, name=第二章, order=2, course_id=1]":
+  
+  [{"id":3,"order":1,"chapter_id":2,"name":"2.1","src":"src2.1"},{"id":4,"order":2,"chapter_id":2,"name":"2.2","src":"src2.2"}]},
+  
+  "course_redirect":"redirec",
+  
+  "course_pic":"pic",
+  
+  "course_class":"calss",
+  
+  "course_id":"1",
+  
+  "第一章":{"Chapter [id=1, name=第一章, order=1, course_id=1]":[{"id":1,"order":1,"chapter_id":1,"name":"1.1","src":"src1.1"},{"id":2,"order":2,"chapter_id":1,"name":"1.2","src":"src1.2"}]},
+  
+  "comments":[{"content":"ceshi","id":"1","userID":1,"username":"user","time":"2017-04-26 11:21:02","grade":6,"courseId":"1","head":"2.jpg"},{"content":"654978","id":"2","userID":2,"username":"user2","time":"2017-04-26 11:20:02","grade":10,"courseId":"1","head":"3.jpg"}],
+  
+  "course_type":"type"}

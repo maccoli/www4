@@ -1,0 +1,204 @@
+ul,li,html,body{
+  margin: 0;
+  padding: 0;
+  font-family: '微软雅黑';
+}
+a,a:hover,a:link{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+
+/*大背景*/
+    #bgpicture{
+        width: 100%;
+        height: 200px;
+        background: url(../img/bgp.jpg) no-repeat ;
+        margin-top: 140px;
+    }
+    #blackbg{
+        width: 100%;
+        height: 200px;
+        background: rgba(34,52,72,0.5);
+        margin-top: -200px;
+    }
+
+#main{
+    width: 1200px;
+    margin: -250px auto 0px;
+}
+
+
+/*本站公告菜單*/
+    #bzgg_menu{
+        width: 13%;
+        height: 198px;
+        /*position: relative;*/
+        margin-left: -6%;
+        background: rgba(111,221,158,0.7);
+        border-radius: 5px;
+        float: left;
+    }
+    #benzhangg{
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        font-size: 22px;
+        font-weight: bold;
+        color: rgba(34,52,72,1);
+    }
+    #options li{
+        width: 100%;
+        height: 37px;
+        text-align: center;
+        line-height: 37px;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+    }
+    #options li a{
+        color: #fff;
+    }
+    .active{
+        background: rgba(34,52,72,1); 
+        border-radius: 0px 0px 5px 5px;
+    }
+
+
+/*列表區*/
+    #bzgg_center{
+      width: 84%;
+      float: right;
+      margin: 50px 8% 0px 0px;
+      /*background: #f9f9f9;*/
+    }
+    #back{
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        cursor: pointer;
+        margin-top: 7px;
+    }
+        #back span{
+            display: block;
+            float: left;
+            font-size: 20px;
+            color: #fff;
+        }
+        #back span:nth-child(1){
+            font-size: 40px;
+            margin: 10px 1% 10px 0;
+        }
+
+/*文章*/
+    #article{
+        width: 100%;
+        /*height: 500px;*/
+        background: #f9f9f9;
+        margin-top: 7px;
+        float: left;
+    }
+    #article_top{
+        width: 100%;
+        height: 127px;
+        /*background: rgba(11,115,114,0.5);*/
+    }
+    #at_title{
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        font-weight: bold;
+        font-size: 28px;
+        color: rgba(34,52,72,1);
+        letter-spacing: 0.1em;
+        /*background: rgba(111,221,158,0.7);*/
+        padding-top: 30px;
+    }
+    #at_ul{
+        width: 100%;
+        height: 37px;
+        text-align: center;
+        margin-top: 36px;
+    }
+    #at_ul li{
+        height: 30px;
+        line-height: 30px;
+        float: left;
+        color: #8a8a8a;
+        /*background: rgba(111,124,225,0.5);*/
+    }
+    #at_ul li:nth-child(1){
+        margin: 0px 1% 0px 42%;
+    }
+    #article_hg{
+        width: 99%;
+        height: 3px;
+        background: #dbdbdb;
+        margin-left: 0.5%;
+        border-radius: 3px;
+    }
+    #article_content{
+        width: 96%;
+        margin: 20px 3% 0px;
+        font-size: 16px;
+    }
+    #article_content p{
+        text-indent: 2em;
+    }
+    #article_bottom{
+        width: 100%;
+        height: 80px;
+        /*background: rgba(111,225,100,0.5);*/
+        margin: 50px 0px 100px;
+    }
+    /*#article_bottom ul{
+        padding: 50px 0px 100px;
+    }*/
+    #article_bottom li{
+        float: left;
+        background: rgba(233,133,94,0.9);
+        text-align: center;
+        cursor: pointer;
+    }
+    #article_bottom li:nth-child(1){
+        width: 12%;
+        height: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        color: rgba(34,52,72,1);
+        border-radius: 5%;
+        line-height: 50px;
+        margin: 15px 44% 0px;
+        box-shadow: 0 3px 3px rgba(241,181,158,0.7);
+    }
+
+/*foot*/
+    #footer{
+        width: 100%;
+        height: 200px;
+        background: url(../img/footerbg.jpg) no-repeat;
+    }
+    #footer_contain{
+        width: 100%;
+        height: 200px;
+        background: rgba(1,0,1,0.6);
+    }
+        #footer_yqlj{
+            width: 60%;
+            height: 40px;
+            margin: 0 auto;
+            color: #fff;
+            font-size: 22px;
+            padding-top: 80px;
+            letter-spacing: 2px;
+        }
+            #footer_yqlj a{
+                color: #fff;
+                margin-left: 2%;
+                font-size: 20px;
+            }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
+-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CKEditor Sample</title>
+	<!-- 1）导入ckeditor.js，注意config.js应该在同级目录 -->
+	<script src="../ckeditor.js"></script>
+	<script src="js/sample.js"></script>
+	<link rel="stylesheet" href="css/samples.css">
+	<link rel="stylesheet" href="toolbarconfigurator/lib/codemirror/neo.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body >
+
+	<div class="editor" style="width:1000px;margin:20px auto;">
+		<form action="">
+			<textarea name="content"></textarea>
+			<script>CKEDITOR.replace('content')</script>
+			<button class="btn btn-success" id="editor_submit" type="submit">提交</button>
+		</form>
+	</div>
+<script src="js/jquery.js"></script>
+<script>
+	initSample();
+</script>
+<script>
+	window.onload=function(){
+		var oEditor_con = document.getElementById("editor");
+		var oEditor_btn = document.getElementById("editor_submit");
+		// alert("aaa"+oEditor_con.innerHTML);
+		oEditor_btn.onclick=function(){
+
+        	if(CKEDITOR.instances.content.getData()==""){
+				alert("内容不能为空！");
+				return false;
+				}
+			alert(CKEDITOR.instances.content.getData());
+
+		};
+	};
+</script>
+</body>
+</html>

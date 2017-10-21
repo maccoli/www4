@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourseServlet</servlet-name>
+    <servlet-class>com.www2.servlet.CourseServlet</servlet-class>
+  </servlet>
+ <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.www2.servlet.LoginServlet</servlet-class>
+     </servlet>
+     <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.www2.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <servlet-class>com.www2.servlet.VerifyCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pContent</servlet-name>
+    <servlet-class>com.www2.servlet.PeopleMinServlet1</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CollectionServlet</servlet-name>
+    <servlet-class>com.www2.servlet.CollectionServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManSearchByIdServlet</servlet-name>
+    <servlet-class>com.www2.servlet.ManSearchByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Registers</servlet-name>
+    <servlet-class>com.www2.servlet.Registers</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>aimServlet</servlet-name>
+    <servlet-class>com.www2.servlet.aimServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VideoServlet</servlet-name>
+    <servlet-class>com.www2.servlet.VideoServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uploadServlet</servlet-name>
+    <servlet-class>com.www2.servlet.uploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>updatepwServlet</servlet-name>
+    <servlet-class>com.www2.servlet.updatepwServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GroupServlet</servlet-name>
+    <servlet-class>com.www2.servlet.GroupServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>com.www2.servlet.SearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoticServlet</servlet-name>
+    <servlet-class>com.www2.servlet.NoticServlet</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SharearticleServelt</servlet-name>
+    <servlet-class>com.www2.servlet.SharearticleServelt</servlet-class>
+  </servlet>
+  <servlet>
+     <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CoursetestServlet</servlet-name>
+    <servlet-class>com.www2.servlet.CoursetestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ApplicantServlet</servlet-name>
+    <servlet-class>com.www2.servlet.ApplicantServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShipinpfbijiServlet</servlet-name>
+    <servlet-class>com.www2.servlet.ShipinpfbijiServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>daohang</servlet-name>
+    <servlet-class>com.www2.servlet.daohang</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OtherServlet</servlet-name>
+    <servlet-class>com.www2.servlet.OtherServlet</servlet-class>
+  </servlet>
+
+
+<servlet>
+	<servlet-name>CourseCommentServlet</servlet-name>
+	<servlet-class>com.www2.servlet.CourseCommentServlet</servlet-class>
+</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuitServlet</servlet-name>
+    <servlet-class>com.www2.servlet.QuitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AttentionServlet</servlet-name>
+    <servlet-class>com.www2.servlet.AttentionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VideoplServlet</servlet-name>
+    <servlet-class>com.www2.servlet.VideoplServlet</servlet-class>
+  </servlet>
+
+
+
+<servlet-mapping>
+	<servlet-name>CourseCommentServlet</servlet-name>
+	<url-pattern>*.CourseComment</url-pattern>
+</servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CourseServlet</servlet-name>
+    <url-pattern>*.Course</url-pattern>
+  </servlet-mapping>
+ <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <url-pattern>/VerifyCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pContent</servlet-name>
+    <url-pattern>/pcontent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CollectionServlet</servlet-name>
+    <url-pattern>*.coo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManSearchByIdServlet</servlet-name>
+    <url-pattern>*.man</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Registers</servlet-name>
+    <url-pattern>/Registers</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>aimServlet</servlet-name>
+    <url-pattern>*.aim</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VideoServlet</servlet-name>
+    <url-pattern>/VideoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uploadServlet</servlet-name>
+    <url-pattern>/uploadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>updatepwServlet</servlet-name>
+    <url-pattern>/updatepwServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GroupServlet</servlet-name>
+    <url-pattern>*.group</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>*.sea</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoticServlet</servlet-name>
+    <url-pattern>*.nose</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SharearticleServelt</servlet-name>
+    <url-pattern>*.share</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CoursetestServlet</servlet-name>
+    <url-pattern>/CoursetestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplicantServlet</servlet-name>
+    <url-pattern>*.jia</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShipinpfbijiServlet</servlet-name>
+    <url-pattern>*.bip</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>daohang</servlet-name>
+    <url-pattern>/daohang</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OtherServlet</servlet-name>
+    <url-pattern>*.other</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuitServlet</servlet-name>
+    <url-pattern>/quitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttentionServlet</servlet-name>
+    <url-pattern>*.atten</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VideoplServlet</servlet-name>
+    <url-pattern>*.video</url-pattern>
+  </servlet-mapping>
+</web-app>

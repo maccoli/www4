@@ -1,0 +1,251 @@
+﻿ ul,li,html,body,h2,span{
+      margin: 0;
+      padding: 0;
+      list-style-type:none;
+    }
+    a,a:hover,a:link{
+      text-decoration: none;
+    }
+    li{
+      list-style: none;
+    }
+    
+    html{width: 100%;height: 100%;}
+    body{width: 100%;height: 100%;font-family: 'Arial Negreta', 'Arial Normal', 'Arial';padding-top: 50px;color:black;}
+    
+    .share_bgimg{
+        width: 100%;
+        height: 300px;
+        filter:blur(3px);
+        -webkit-filter:blur(3px);
+        -moz-filter:blur(3px);
+        /*margin-top: 60px;*/
+    }
+        .share_bgimg img{
+            width: 100%;
+            height: 100%;
+        }
+    .user_infor{
+        width: 100%;
+        height: 300px;
+        margin-top: -300px;
+        background: rgba(0,1,0,0.3);
+        position: relative;
+    }
+    .user_infor_con{
+        width: 1000px;
+        height: 80px;
+        margin: 0px auto;
+        padding-top: 180px;
+    }
+        .user_infor img{
+            width: 80px;
+            height: 80px;
+            float: right;
+            /*position: absolute;*/
+            /*right: 17%;*/
+            /*bottom: 30px;*/
+            border-radius: 50%;
+        }
+        .user_infor span{
+            color: #fff;
+            font-size: 20px;
+            height: 80px;
+            line-height: 80px;
+            float: right;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+/*正文处*/
+    #fx{
+        width:1000px;
+        /*height: 500px;*/
+        /*background: #f5f5f5;*/
+        margin: 0px auto;
+        /*margin-top:30px;*/
+    }
+        .title h1{
+            font-size: 32px;
+            font-weight: 700;
+            height: 56px;
+            /*line-height: 60px;*/
+            width: 100%;
+            text-align: center;
+            padding-top: 36px;
+        }
+            .title h5{
+                width: 100%;
+                font-size: 16px;
+                font-weight: normal;
+                /*padding-top: 2px;*/
+                text-align: center;
+                height: 40px;
+                color: #777;
+            }
+            .title h5 span:nth-child(1){
+                margin-right: 16px;
+            }
+
+        .fx_con{
+            font-family: 黑体;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            padding:0px 15px;
+        }
+
+
+    /*点赞等按钮*/
+        .sc{
+            width: 100%;
+            text-align: center;
+            padding:20px 0px;
+            margin:70px auto;
+        }
+            .sc .btn{
+                margin:0 auto;
+                width: auto;
+                height: 45px;
+                background: #ccc;
+                outline: none;
+            }
+            .sc .btn:nth-child(1),.sc .btn:nth-child(2){
+                margin-right: 30px;
+            }
+            .sc span{
+                display: block;
+                float: left;
+            }
+            .sc .btn_logo{
+                font-size: 20px;
+                display: block;
+                margin-top: -1px;
+                float: left;
+            }
+    
+/*评论*/
+    #pl{
+        width: 100%;
+        padding-bottom: 100px;
+        /*height: 660px;*/
+        background:#ccffcc;
+    }
+    .hfb{
+        padding-top: 20px;
+        width: 1000px;
+        margin: 0px auto;
+        
+    }
+    .hf_title{
+        height: 60px;
+        line-height: 60px;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .hf-text{
+        border-radius: 7px;
+        border: 1px solid #f37b1d;
+        /*display: block; */
+        height: 150px; 
+        width: 100%; 
+        padding: 7px; 
+        /*resize: none; */
+        color: #333;
+        font-size:16px;
+        outline: none;
+    }
+    .hf_anniu{
+        width: 100%;
+        margin-top: 5px;
+        height: 30px;
+    }
+    .hf-btn{
+        float: right; 
+        width: 80px; 
+        font-size: 14px; 
+        /*display: inline;*/
+        height: 40px;
+        line-height: 40px;
+        background: #ccc;
+        border-radius: 3px;
+        color: #000;
+        border: 0px solid #333;
+    }
+/*回复*/
+    .comment:after{
+        clear:both;
+        content:'';
+        display:block;
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+    .comment{
+        width: 1000px;
+        margin: 10px auto;
+        /*padding: 8px 0px 8px 10px ;*/
+        /*margin-left: 9%;*/
+        /*border-left: 3px solid #bdbdbd;*/
+        /*background: rgba(111,188,28,0.1);*/
+    }
+        .comment-user{
+            /*width: 25px; */
+            /*float: left; */
+            height: 32px;
+            line-height: 32px;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline; 
+            /*margin-right: 10px;*/
+        }
+            .comment-user a{
+                color: #000;
+            }
+            .comment-user img{
+                width: 50px; 
+                height: 50px;
+                margin-right: 5px;
+                border-radius: 50%;
+                /*background: #000;*/
+            }
+        .comment-main{
+            /*float: left; */
+            width: 94%;
+            margin-left: 6%;
+            /*background: rgba(111,188,128,0.1);*/
+        }
+        .comment-text{
+            line-height: 20px;
+            font-size: 14px;
+        }
+        .comment-date{
+            font-size: 13px; 
+            line-height: 24px; 
+            height: 24px;
+            color: #989898; 
+            position: relative;
+        }
+            /*评论提交后的点赞处*/
+            .comment-zan{
+                position: absolute; 
+                right: 40px; 
+                bottom: 0; 
+                color: #808080;
+            }
+            /*已有的评论的点赞*/
+            .comment-zan_youde{
+                position: absolute; 
+                right: 5px; 
+                bottom: 0; 
+                color: #808080;
+            }
+            .comment-dele{
+                position: absolute; 
+                right: 0; 
+                bottom: 0; 
+                color: #808080;
+            }
+            .comment-dele:hover,.comment-dele:link,.comment-zan_youde:hover,.comment-zan_youde:link,.comment-zan:hover,.comment-zan:link{
+                color: #808080;
+            }
